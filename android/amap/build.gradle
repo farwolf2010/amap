@@ -53,7 +53,7 @@ android {
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     api "com.android.support:appcompat-v7:${project.supportLibVersion}"
-    api  project(':farwolf.weex')
+    api 'com.farwolf.weexplus:farwolf.weex:latest.integration'
     api 'com.amap.api:3dmap:6.6.0'
     api 'com.amap.api:location:4.4.0'
     //provided 'com.taobao.android:dynamicimport:1.0.4.18'
